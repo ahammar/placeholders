@@ -1,0 +1,26 @@
+Name:                placeholders
+Version:             0.1
+Synopsis:            Placeholders for use under development
+Description:         TODO: Add a description
+Homepage:            http://github.com/ahammar/placeholders
+License:             BSD3
+License-file:        LICENSE
+Author:              Andreas Hammar
+Maintainer:          Andreas Hammar <ahammar@gmail.com>
+Copyright:           (c) 2011 Andreas Hammar
+Category:            Development
+Build-type:          Simple
+Cabal-version:       >=1.6
+
+Source-repository head
+  Type:        git
+  Location:    git://github.com/ahammar/placeholders.git
+
+Library
+  Exposed-modules:     Development.Placeholders
+  
+  Build-depends:       base >= 4 && < 5,
+                       template-haskell
+  
+  Hs-source-dirs:      src
+  
