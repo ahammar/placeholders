@@ -1,7 +1,16 @@
 Name:                placeholders
 Version:             0.1
-Synopsis:            Placeholders for use under development
-Description:         TODO: Add a description
+Synopsis:            Placeholders for use while developing Haskell code
+Description:         While working on some Haskell code, it is often useful to
+                     work incrementally by inserting @undefined@ as a
+                     placeholder for missing code. 
+                     .
+                     This library provides placeholders that produce better
+                     messages when evaluated at run-time and also generate
+                     compile-time warnings so that they do not get forgotten
+                     so easily.
+
+                     For details, see <http://github.com/ahammar/placeholders>
 Homepage:            http://github.com/ahammar/placeholders
 License:             BSD3
 License-file:        LICENSE
@@ -10,6 +19,7 @@ Maintainer:          Andreas Hammar <ahammar@gmail.com>
 Copyright:           (c) 2011 Andreas Hammar
 Category:            Development
 Build-type:          Simple
+Extra-source-files:  README.markdown
 Cabal-version:       >=1.6
 
 Source-repository head
